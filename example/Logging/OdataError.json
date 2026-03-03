@@ -1,0 +1,45 @@
+{
+    "error": {
+        "code": "CX_SD_SLS_INTEGRATION",
+        "messagxxe": {
+            "lang": "en",
+            "value": "Purchase order number in document number: 19345 already exists"
+        },
+        "innererror": {
+            "application": {
+                "component_id": "SD-SLS-SO",
+                "service_namespace": "/SAP/",
+                "service_id": "API_SALES_ORDER_SIMULATION_SRV",
+                "service_version": "0001"
+            },
+            "transactionid": "75c7216b9b0b4376976040ddac0bb611",
+            "timestamp": "",
+            "Error_Resolution": {
+                "SAP_Transaction": "",
+                "SAP_Note": "See SAP Note 1797736 for error analysis (https://service.sap.com/sap/support/notes/1797736)"
+            },
+            "longtext_url": "/sap/opu/odata/iwbep/message_text;o=LOCAL/",
+            "errordetails": [
+                {
+                    "ContentID": "",
+                    "code": "CX_SD_SLS_INTEGRATION",
+                    "message": "Purchase order number in document number: 19345 already exists",
+                    "longtext_url": "/sap/opu/odata/iwbep/message_text;o=LOCAL/",
+                    "propertyref": "",
+                    "severity": "error",
+                    "transition": false,
+                    "target": ""
+                },
+                {
+                    "ContentID": "",
+                    "code": "/IWBEP/CX_MGW_BUSI_EXCEPTION",
+                    "message": "An exception was raised",
+                    "propertyref": "",
+                    "severity": "error",
+                    "transition": false,
+                    "target": ""
+                }
+            ]
+        }
+    }
+}
